@@ -1,9 +1,8 @@
 name: 'quick-kubectl'
-description: 'The kubectl command line program as a GitHub Action'
+description: 'Kubectl command line program as a GitHub Action optimized build time'
 runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
   icon: 'terminal'
   color: 'blue'
-  
